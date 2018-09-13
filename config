@@ -162,8 +162,8 @@ bar {
 #bindsym Control+Mod1+l exec i3lock
 #exec /home/toojsve/.config/i3/screenconfig.sh
 exec setxkbmap se
-bindsym Control+Mod1+l exec "~/.local/bin/fuzzy_lock.sh"
-exec xautolock -time 5 -locker '~/.local/bin/fuzzy_lock.sh' &
+bindsym Control+Mod1+l exec "~/.config/i3/fuzzy_lock.sh"
+exec xautolock -time 5 -locker '~/.config/i3/fuzzy_lock.sh' &
 
 set $monitor_laptop fake-0
 set $monitor_primary fake-1
